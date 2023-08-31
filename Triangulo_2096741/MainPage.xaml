@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Triangulo_2096741.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+          Spacing="25"
+          Padding="30,0"
+          VerticalOptions="Center">
+
+            <Image
+              Source="num.jpg"
+              HeightRequest="200"
+              HorizontalOptions="Center" />
+
+            <Entry x:Name="a" Placeholder="Ingrese la area de lado a"
+                 Keyboard="Numeric"/>
+
+            <Entry x:Name="b" Placeholder="Ingrese la area de lado b"
+                 Keyboard="Numeric"/>
+
+            <Entry x:Name="c" Placeholder="Ingrese la area de lado c"
+                 Keyboard="Numeric"/>
+
+            <Label x:Name="re"
+                 Text="El resultado es : "/>
+
+            <Button Text="Listo"
+                  Clicked="Button_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
